@@ -3,9 +3,8 @@ class Solution {
         Arrays.sort(nums);
         int sum=0;
 
-        for(int i =0;i<nums.length;i++){
+        for(int i =0;i<nums.length;i+=2){
             sum +=nums[i];
-            i++;
 
         }
         return sum;
